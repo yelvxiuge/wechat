@@ -28,5 +28,5 @@ if (empty($_SESSION['wechat_user'])) {
 }
 // 已经登录过
 $user = $_SESSION['wechat_user'];
-
+print "this is a tsdsfasdfasdf";
 print $_SESSION;
