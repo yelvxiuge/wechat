@@ -4,7 +4,7 @@ require '../vendor/autoload.php';
 use EasyWeChat\Foundation\Application;
 
 
-    $config = [
+$config = [
         // ...
         'app_id'     =>'wxb84db8bb472503ed',
         'appsecret' =>'d4624c36b6795d1d99dcf0547af5443d',
@@ -19,9 +19,9 @@ use EasyWeChat\Foundation\Application;
 $app = new Application($config);
 $oauth = $app->oauth;
 // 获取 OAuth 授权结果用户信息
-//$user = $oauth->user();
+$user = $oauth->user();
 
-file_put_contents(test.txt,$user->toArray());
+file_put_contents('test.txt',$user->toArray());
 print_r($user);
 
 $_SESSION['wechat_user'] = $user->toArray();

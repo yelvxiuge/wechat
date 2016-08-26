@@ -49,8 +49,8 @@
       <file leaf-file-name="oauth_callback.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/oauth_callback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="175">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -346,12 +346,12 @@
       <option name="presentableId" value="Default" />
       <updated>1472104941930</updated>
       <workItem from="1472104944943" duration="14120000" />
-      <workItem from="1472139280246" duration="23369000" />
+      <workItem from="1472139280246" duration="23616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37489000" />
+    <option name="totallyTimeSpent" value="37736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1368" height="743" extended-state="6" />
@@ -531,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/oauth_callback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="175">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding />
         </state>
       </provider>
