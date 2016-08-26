@@ -14,6 +14,11 @@ $config = [
         'scopes'   => ['snsapi_userinfo'],
         'callback' => '/oauth_callback.php',
     ],
+
+    'log' => [
+        'level' => 'debug',
+        'file'  => '/tmp/easywechat.log', // XXX: 绝对路径！！！！
+    ],
     // ..
 ];
 
