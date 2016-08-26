@@ -117,6 +117,7 @@ class Application extends Container
         }
 
         Log::debug('Current config:', $config);
+        Log::debug('Current config:', $config);
     }
 
     /**

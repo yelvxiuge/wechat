@@ -2,7 +2,7 @@
 
 require '../../vendor/autoload.php';
 
-
+session_start();
 use EasyWeChat\Foundation\Application;
 
 $config = [
