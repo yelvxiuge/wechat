@@ -11,6 +11,7 @@ $oauth = $app->oauth;
 $user = $oauth->user();
 
 file_put_contents(test.txt,$user->toArray());
+print_r($user);
 
 $_SESSION['wechat_user'] = $user->toArray();
 $targetUrl = empty($_SESSION['target_url']) ? '/' : $_SESSION['target_url'];

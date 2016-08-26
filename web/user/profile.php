@@ -21,7 +21,7 @@ $app = new Application($config);
 $oauth = $app->oauth;
 
 if (empty($_SESSION['wechat_user'])) {
-    $_SESSION['target_url'] = 'user/profile.php';
+//    $_SESSION['target_url'] = 'user/profile.ph';
     return $oauth->redirect()->send();
     // 这里不一定是return，如果你的框架action不是返回内容的话你就得使用
     // $oauth->redirect()->send();
