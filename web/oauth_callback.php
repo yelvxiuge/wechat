@@ -1,5 +1,5 @@
 <?php
-
+require '../../vendor/autoload.php';
 use EasyWeChat\Foundation\Application;
 $config = [
     // ...
