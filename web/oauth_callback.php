@@ -8,7 +8,7 @@ $config = [
 $app = new Application($config);
 $oauth = $app->oauth;
 // 获取 OAuth 授权结果用户信息
-$user = $oauth->user();
+//$user = $oauth->user();
 
 file_put_contents(test.txt,$user->toArray());
 print_r($user);
