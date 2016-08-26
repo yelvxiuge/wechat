@@ -6,6 +6,7 @@ use EasyWeChat\Foundation\Application;
 
 $config = [
         // ...
+        'debug'  => true,
         'app_id'     =>'wxb84db8bb472503ed',
         'appsecret' =>'d4624c36b6795d1d99dcf0547af5443d',
         'token'     =>'Asdsd',
@@ -18,6 +19,8 @@ $config = [
         'level' => 'debug',
         'file'  => '/tmp/easywechat.log', // XXX: 绝对路径！！！！
     ],
+
+
         // ..
     ];
     // ...
