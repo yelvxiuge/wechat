@@ -37,7 +37,17 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HEADER, 0);
 $output = curl_exec($ch);
 curl_close($ch);
-print_r($output);
+$output_array = json_decode($output,true);
+
+$ch= curl_init();
+curl_setopt($ch, CURLOPT_URL, 'https://api.weixin.qq.com/sns/userinfo?access_token='.$output_array['access_token'].'&openid='.$output_array['openid'].'&lang=zh_CN');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+$output = curl_exec($ch);
+curl_close($ch);
+
+print $output;
+
 
 $_SESSION['wechat_user'] = $user->toArray();
 $targetUrl = empty($_SESSION['target_url']) ? '/' : $_SESSION['target_url'];

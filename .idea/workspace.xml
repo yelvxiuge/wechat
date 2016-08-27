@@ -49,8 +49,8 @@
       <file leaf-file-name="oauth_callback.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/oauth_callback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
               <folding>
                 <element signature="e#6#41#0#PHP" expanded="true" />
               </folding>
@@ -358,12 +358,12 @@
       <option name="presentableId" value="Default" />
       <updated>1472104941930</updated>
       <workItem from="1472104944943" duration="14120000" />
-      <workItem from="1472139280246" duration="38293000" />
+      <workItem from="1472139280246" duration="38724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52413000" />
+    <option name="totallyTimeSpent" value="52844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1368" height="743" extended-state="6" />
@@ -577,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/oauth_callback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding>
             <element signature="e#6#41#0#PHP" expanded="true" />
           </folding>
