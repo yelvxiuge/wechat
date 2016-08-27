@@ -26,6 +26,9 @@ $config = [
     // ...
 $app = new Application($config);
 $oauth = $app->oauth;
+
+print_r($_GET);
+exit;
 // 获取 OAuth 授权结果用户信息
 $user = $oauth->user();
 
